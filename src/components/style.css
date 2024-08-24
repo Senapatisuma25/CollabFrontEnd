@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inp{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+.inp:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.homecard{
+    text-align: center;
+    background-image: url('./backgrounds/back11.png');
+     
+}
+.home{
+    background-image: url('./backgrounds/back9.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.card-title{
+    color: white;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: rgba(27, 248, 7, 0.537);
+    padding: 10px 20px;
+}
+.btn:hover{
+    color: white;
+    background-color:rgba(27, 248, 7, 0.407);
+}
+.cre{
+    color: rgba(27, 248, 7, 0.537);
+}
+.cre:hover{
+    color: rgba(26, 255, 5, 0.819);
+}
+.card{
+    margin: 20px;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.down{
+    text-align: center;
+    
+}
+.copy{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(1, 185, 1);
+    margin: 5px;
+    transition: all 0.4s;
+}
+.copy:hover{
+    letter-spacing: 0.1rem;
+    background-color: rgb(20, 133, 3);
+    color: white;
+}
+.leave{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(243, 4, 4, 0.936);
+    transition: all 0.4s;
+}
+.leave:hover{
+    letter-spacing: 0.1rem;
+   
+    background-color: brown;
+    color: white;
+}
+.edit{
+    background-color: rgb(70, 72, 74);
+}
+
